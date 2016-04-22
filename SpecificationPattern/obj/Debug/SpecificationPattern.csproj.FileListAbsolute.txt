@@ -1,0 +1,8 @@
+C:\Users\admin\Documents\Visual Studio 2015\Projects\DDDStudy\SpecificationPattern\bin\Debug\SpecificationPattern.exe.config
+C:\Users\admin\Documents\Visual Studio 2015\Projects\DDDStudy\SpecificationPattern\bin\Debug\SpecificationPattern.exe
+C:\Users\admin\Documents\Visual Studio 2015\Projects\DDDStudy\SpecificationPattern\bin\Debug\SpecificationPattern.pdb
+C:\Users\admin\Documents\Visual Studio 2015\Projects\DDDStudy\SpecificationPattern\obj\Debug\SpecificationPattern.exe
+C:\Users\admin\Documents\Visual Studio 2015\Projects\DDDStudy\SpecificationPattern\obj\Debug\SpecificationPattern.pdb
+D:\DDDStudy\DDDStudy\SpecificationPattern\bin\Debug\SpecificationPattern.exe.config
+D:\DDDStudy\DDDStudy\SpecificationPattern\obj\Debug\SpecificationPattern.exe
+D:\DDDStudy\DDDStudy\SpecificationPattern\obj\Debug\SpecificationPattern.pdb
