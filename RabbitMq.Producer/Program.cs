@@ -19,14 +19,27 @@ namespace RabbitMq.Producer
             {
                 using (var channel = connection.CreateModel())
                 {
-                    channel.QueueDeclare("hello", false, false, false, null);
-                    string message = "Hello World";
+
+                    bool durable = true;
+                    channel.QueueDeclare("task_queue", durable, false, false, null);
+
+                    string message = GetMessage(args);
+                    var properties = channel.CreateBasicProperties();
+                    properties.SetPersistent(true);
+
+
                     var body = Encoding.UTF8.GetBytes(message);
-                    channel.BasicPublish("", "hello", null, body);
+                    channel.BasicPublish("", "task_queue", properties, body);
                     Console.WriteLine(" set {0}", message);
-                    Console.ReadKey();
                 }
             }
+
+            Console.ReadKey();
+        }
+
+        private static string GetMessage(string[] args)
+        {
+            return ((args.Length > 0) ? string.Join(" ", args) : "Hello World!");
         }
     }
 }
