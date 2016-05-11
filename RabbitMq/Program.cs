@@ -14,7 +14,7 @@ namespace RabbitMq
         static void Main(string[] args)
         {
             var factory = new ConnectionFactory();
-            factory.HostName = "localhost";
+            factory.HostName = "192.168.1.100";
             factory.UserName = "yy";
             factory.Password = "hello!";
 
