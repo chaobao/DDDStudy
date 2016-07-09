@@ -14,7 +14,7 @@ namespace RabbitMq
         static void Main(string[] args)
         {
             var factory = new ConnectionFactory();
-            factory.HostName = "192.168.1.100";
+            factory.HostName = "192.168.1.102";
             factory.UserName = "yy";
             factory.Password = "hello!";
 
@@ -23,12 +23,13 @@ namespace RabbitMq
                 using (var channel = connection.CreateModel())
                 {
                     bool durable = true;
+
                     channel.QueueDeclare("task_queue", durable, false, false, null);
                     channel.BasicQos(0, 1, false);
 
                     var consumer = new QueueingBasicConsumer(channel);
                     channel.BasicConsume("task_queue", false, consumer);
-
+               
                     while (true)
                     {
                         var ea = (BasicDeliverEventArgs)consumer.Queue.Dequeue();

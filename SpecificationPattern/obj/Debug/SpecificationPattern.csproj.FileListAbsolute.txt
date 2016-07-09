@@ -6,3 +6,9 @@ C:\Users\admin\Documents\Visual Studio 2015\Projects\DDDStudy\SpecificationPatte
 D:\DDDStudy\DDDStudy\SpecificationPattern\bin\Debug\SpecificationPattern.exe.config
 D:\DDDStudy\DDDStudy\SpecificationPattern\obj\Debug\SpecificationPattern.exe
 D:\DDDStudy\DDDStudy\SpecificationPattern\obj\Debug\SpecificationPattern.pdb
+F:\backup\学习demo\DDDStudy\SpecificationPattern\bin\Debug\SpecificationPattern.exe.config
+F:\backup\学习demo\DDDStudy\SpecificationPattern\bin\Debug\SpecificationPattern.exe
+F:\backup\学习demo\DDDStudy\SpecificationPattern\bin\Debug\SpecificationPattern.pdb
+F:\backup\学习demo\DDDStudy\SpecificationPattern\obj\Debug\SpecificationPattern.csprojResolveAssemblyReference.cache
+F:\backup\学习demo\DDDStudy\SpecificationPattern\obj\Debug\SpecificationPattern.exe
+F:\backup\学习demo\DDDStudy\SpecificationPattern\obj\Debug\SpecificationPattern.pdb
