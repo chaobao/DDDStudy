@@ -1,12 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.IO;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
+using ClrWeb.Lib.Events;
+using EnumDemo.Lib.Events;
 
 namespace EnumDemo
 {
+    internal delegate void Feedback(Int32 value);
+
     class Program
     {
         static void Main(string[] args)
@@ -19,7 +20,7 @@ namespace EnumDemo
             //{
             //    Console.WriteLine("{0,5:D}\t{0:G}", c);
             //}
-          
+
 
             //Color orange = (Color)Enum.Parse(typeof(Color), "orange", true);
             //Console.WriteLine(orange);
@@ -36,9 +37,45 @@ namespace EnumDemo
             //}
             //Console.ReadKey();
 
-            
+            TypeWithLotsOfEvents twle = new TypeWithLotsOfEvents();
+            twle.Foo += HandlerFooEvent;
+            twle.SimulateFoo();
+            Console.ReadKey();
         }
 
+        private static void HandlerFooEvent(object sender, FooEventArgs e)
+        {
+            Console.WriteLine("Handling Foo Event here...");
+        }
+
+        private static void StaticDelegateDemo()
+        {
+            Console.WriteLine("---Static Delegate Demo---");
+            Feedback fb1 = new Feedback(FeedbackToMsgBox);
+        }
+
+        private static void Counter(Int32 from,int to,Feedback fb)
+        {
+            for (int val = from; val <= to; val++)
+            {
+                if (fb!=null)
+                {
+                    fb(val);
+                }
+            }
+        }
+
+        private static void FeedbackToMsgBox(Int32 value)
+        {
+          //  MessageBox
+        }
+
+        private void FeedbackToFile(Int32 value)
+        {
+            StreamWriter sw = new StreamWriter("status",true);
+            sw.WriteLine("Item=" + value);
+            sw.Close();
+        }
         public class Type2
         {
             static Type2() {

@@ -20,3 +20,25 @@ C:\Users\admin\Documents\Visual Studio 2015\Projects\DDDStudy\OnlineStore.Servic
 C:\Users\admin\Documents\Visual Studio 2015\Projects\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\OnlineStore.Domain.dll
 C:\Users\admin\Documents\Visual Studio 2015\Projects\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\OnlineStore.Domain.pdb
 C:\Users\admin\Documents\Visual Studio 2015\Projects\DDDStudy\OnlineStore.ServiceContracts\obj\Debug\OnlineStore.ServiceContracts.csprojResolveAssemblyReference.cache
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\OnlineStore.ServiceContracts.dll
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\OnlineStore.ServiceContracts.pdb
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\EntityFramework.dll
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\EntityFramework.SqlServer.dll
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\Microsoft.Practices.Unity.dll
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\OnlineStore.Domain.dll
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\OnlineStore.Domain.pdb
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\EntityFramework.xml
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\EntityFramework.SqlServer.xml
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\Microsoft.Practices.Unity.xml
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\obj\Debug\OnlineStore.ServiceContracts.csprojResolveAssemblyReference.cache
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\obj\Debug\OnlineStore.ServiceContracts.dll
+F:\backup\学习demo\DDDStudy\OnlineStore.ServiceContracts\obj\Debug\OnlineStore.ServiceContracts.pdb

@@ -44,6 +44,13 @@
   <ItemGroup>
     <Compile Include="Actions.cs" />
     <Compile Include="Color.cs" />
+    <Compile Include="Lib\Events\EventArgExtensions.cs" />
+    <Compile Include="Lib\Events\EventKey.cs" />
+    <Compile Include="Lib\Events\EventSet.cs" />
+    <Compile Include="Lib\Events\FooEventArgs.cs" />
+    <Compile Include="Lib\Events\NewMailEventArgs.cs" />
+    <Compile Include="Lib\Manager\Fax.cs" />
+    <Compile Include="Lib\Manager\MailManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
