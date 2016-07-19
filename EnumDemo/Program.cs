@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Runtime.CompilerServices;
+using System.Threading;
 using ClrWeb.Lib.Events;
 using EnumDemo.Lib.Events;
 
@@ -37,10 +38,22 @@ namespace EnumDemo
             //}
             //Console.ReadKey();
 
-            TypeWithLotsOfEvents twle = new TypeWithLotsOfEvents();
-            twle.Foo += HandlerFooEvent;
-            twle.SimulateFoo();
-            Console.ReadKey();
+            //TypeWithLotsOfEvents twle = new TypeWithLotsOfEvents();
+            //twle.Foo += HandlerFooEvent;
+            //twle.SimulateFoo();
+            //Console.ReadKey();
+            Console.WriteLine("Main thread:Queruing an asynchronous operation...");
+            ThreadPool.QueueUserWorkItem(ComputerBoundOp, 5);
+            Console.WriteLine("Main thread:Doing other work here...");
+            Thread.Sleep(10000);
+            Console.WriteLine("Hit <Enter> to end this program...");
+            Console.ReadLine();
+        }
+
+        private static void ComputerBoundOp(object state)
+        {
+            Console.WriteLine("In ComputeBoundOp:State={0}", state);
+            Thread.Sleep(1000);
         }
 
         private static void HandlerFooEvent(object sender, FooEventArgs e)
